@@ -16,6 +16,7 @@ function App() {
       <EffectPart />
       <Options />
       <LastProject />
+      <EffectPart />
     </>
   );
 }
