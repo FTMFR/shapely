@@ -1,0 +1,19 @@
+.app {
+    // THIS PART IS JUST FOR THIS ONE NOT WHOLE CONTAINER IN APP!!
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .3);
+    color: #565656;
+
+    .logo {
+        font-size: 40px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .content {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
