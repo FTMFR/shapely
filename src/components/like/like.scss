@@ -1,0 +1,26 @@
+.contentWrapp {
+    text-align: center;
+
+    .wrapp {
+        padding: 35px 0;
+        background-color: #ddd;
+        display: flex;
+        justify-content: space-evenly;
+
+        p{
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        button{
+            width: 180px;
+            height: 50px;
+            border-radius: 0;
+            outline: none;
+            border: none;
+            background-color: rgb(66, 74, 185);
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+}
