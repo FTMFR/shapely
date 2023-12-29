@@ -1,0 +1,27 @@
+.containerWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    p {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: 20px 0;
+
+        img {
+            width: 50px;
+            height: 50px;
+            opacity: .8;
+        }
+    }
+
+
+}

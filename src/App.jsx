@@ -4,6 +4,7 @@ import Content from "./components/content/Content";
 import ReverseContent from "./components/reverseContent/ReverseContent";
 import Options from "./components/options/Options";
 import LastProject from "./components/lastProject/LastProject";
+import Clients from "./components/clients/Clients";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Options />
       <LastProject />
       <EffectPart />
+      <Clients />
     </>
   );
 }
