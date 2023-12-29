@@ -3,6 +3,7 @@ import EffectPart from "./components/effectPart/EffectPart";
 import Content from "./components/content/Content";
 import ReverseContent from "./components/reverseContent/ReverseContent";
 import Options from "./components/options/Options";
+import LastProject from "./components/lastProject/LastProject";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ReverseContent />
       <EffectPart />
       <Options />
+      <LastProject />
     </>
   );
 }
